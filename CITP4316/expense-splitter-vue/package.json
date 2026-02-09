@@ -6,14 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "vue": "^3.5.24"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.23.1",
     "@vitejs/plugin-vue": "^6.0.1",
-    "vite": "npm:rolldown-vite@7.2.5"
+    "vite": "npm:rolldown-vite@7.2.5",
+    "wrangler": "^4.63.0"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
