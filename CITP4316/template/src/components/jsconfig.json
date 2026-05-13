@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*", "vite.config.js"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
