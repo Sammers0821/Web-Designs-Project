@@ -1,5 +1,10 @@
 import { Hono } from 'hono'
-import { deleteTask, getTaskById, updateTask } from '../data/store.js'
+import { getDb } from '../data/db.js'
+import {
+  deleteTask,
+  getTaskById,
+  updateTask,
+} from '../data/tasks.repository.js'
 import { parseJsonBody } from '../utils/body.js'
 import { ApiError } from '../utils/errors.js'
 import { sendResource } from '../utils/response.js'
