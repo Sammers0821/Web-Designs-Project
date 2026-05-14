@@ -7,6 +7,7 @@
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
+    "drizzle-orm": "^0.45.2",
     "hono": "^4.12.18",
     "zod": "^4.4.3"
   },
@@ -16,6 +17,6 @@
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.6.0",
     "prettier": "3.8.3",
-    "wrangler": "^4.4.0"
+    "wrangler": "^4.91.0"
   }
 }
