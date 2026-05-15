@@ -9,10 +9,8 @@
 			"database_name": "projects_db",
 			"database_id": "3d424100-840f-4009-960b-94d1b9b0cd6b",
 			"migrations_dir": "./src/data/migrations",
-			"db:migrate:local": "wrangler d1 migrations apply projects_db --local",
-            "db:migrate:remote": "wrangler d1 migrations apply projects_db --remote"
-		}
-	]
+		},
+	],
 	// "compatibility_flags": [
 	//   "nodejs_compat"
 	// ],

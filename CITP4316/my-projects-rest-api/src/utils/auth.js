@@ -1,5 +1,5 @@
 import { sign, verify } from 'hono/jwt'
-import { ACCESS_TOKEN_TTL_SECONDS, REFRESH_TOKEN_TTL_DAYS } from './constants'
+import { ACCESS_TOKEN_TTL_SECONDS, REFRESH_TOKEN_TTL_DAYS } from './constants.js'
 
 export async function signAccessToken(payload, secret) {
   const now = Math.floor(Date.now() / 1000)
