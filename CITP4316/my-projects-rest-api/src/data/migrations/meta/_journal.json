@@ -15,6 +15,13 @@
       "when": 1778807016250,
       "tag": "0001_naive_payback",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1778813002414,
+      "tag": "0002_colorful_rafael_vega",
+      "breakpoints": true
     }
   ]
 }
